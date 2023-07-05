@@ -231,6 +231,7 @@ img {
 }
 
 .pr-name {
+  width: calc((100% - 72px) / 4);
   color: var(--primeri-black-color);
   font-size: 20px;
   font-weight: 500;
@@ -309,7 +310,7 @@ img {
 .team-item {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   background-color: var(--primeri-white-color);
-  flex-basis: calc((100% - 72px) / 4);
+
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -326,6 +327,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .position-team {

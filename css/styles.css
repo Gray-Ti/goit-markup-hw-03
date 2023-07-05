@@ -36,7 +36,7 @@ img {
   display: block;
 }
 
-.conteiner {
+.container {
   width: 100%;
   max-width: 1470px;
   padding-left: 15px;
@@ -59,7 +59,7 @@ img {
   margin-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-conteiner {
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -113,6 +113,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -420,7 +421,7 @@ img {
 
 /* ---------main-portfolio---------- */
 
-.port-conteiner {
+.port-container {
   border-bottom: 1px solid var(#e7e9fc);
 }
 

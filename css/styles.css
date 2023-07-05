@@ -157,11 +157,6 @@ img {
 }
 
 .hero-title {
-  padding-left: 472px;
-  padding-right: 472px;
-}
-
-.hero-title {
   text-align: center;
   color: var(--primeri-white-color);
   max-width: 496px;
@@ -169,6 +164,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  padding-left: 156px;
 }
 
 .hero-btn {
@@ -346,7 +342,6 @@ img {
 .footer {
   background-color: var(--primeri-black-color);
   padding: 100px 0 100px;
-  padding-left: 156px;
 }
 
 .footer-container {

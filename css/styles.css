@@ -32,6 +32,9 @@ ol {
   padding-left: 0;
   list-style-type: none;
 }
+img {
+  display: block;
+}
 
 .conteiner {
   width: 100%;
@@ -69,7 +72,6 @@ ol {
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0 24px;
 }
 
 .header-logo {
@@ -98,7 +100,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 12px;
+  padding: 24px 0 24px;
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
@@ -342,8 +344,7 @@ ol {
 
 .footer {
   background-color: var(--primeri-black-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0 100px;
   padding-left: 156px;
 }
 
@@ -438,15 +439,19 @@ ol {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
   letter-spacing: 0.02em;
   color: var(--primeri-black-color);
-  margin-bottom: 8px;
-  padding-top: 32px;
+}
+
+.port-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .pres-item {
   font-size: var(--text-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 153px;
   color: var(--secondary-text-color);
 }

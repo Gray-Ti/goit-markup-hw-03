@@ -157,14 +157,14 @@ img {
 }
 
 .hero-title {
-  text-align: center;
   color: var(--primeri-white-color);
-  max-width: 496px;
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-left: 156px;
+  padding-left: 472px;
+  padding-right: 472px;
 }
 
 .hero-btn {
@@ -367,6 +367,7 @@ img {
 .footer-logo-studio {
   color: var(--secondary-white-color);
   font-family: Raleway, sans-serif;
+  display: inline-block;
 }
 .footer-text {
   color: var(--secondary-white-color);
@@ -425,6 +426,8 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  align-items: center;
+  padding-left: 156px;
 }
 
 .images-port-li {

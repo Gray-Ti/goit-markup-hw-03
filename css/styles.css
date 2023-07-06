@@ -9,8 +9,6 @@
   --header-font-size: 16px;
 }
 body {
-  width: 100%;
-  max-width: 1470px;
   font-family: "Roboto", sans-serif;
   color: var(--secondary-text-color, #434455);
   background-color: var(--primeri-white-color);
@@ -38,7 +36,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1470px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-bottom: 15px;
   margin: 0 auto;
@@ -52,8 +50,6 @@ img {
 /* -----header---- */
 
 .header {
-  width: 100%;
-  max-width: 1470px;
   display: flex;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -64,7 +60,6 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 76px;
-  padding-left: 156px;
   width: 1158px;
   padding: 0 15px 0 15px;
 }
@@ -149,8 +144,6 @@ img {
 /*------- main------- */
 
 .hero {
-  width: 100%;
-  max-width: 1470px;
   background-color: var(--primeri-black-color);
   padding: 188px 0 188px;
 }
@@ -158,12 +151,12 @@ img {
 .hero-title {
   color: var(--primeri-white-color);
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-left: 472px;
-  padding-right: 472px;
   max-width: 496px;
 }
 
@@ -199,8 +192,6 @@ img {
 /* -----princips------- */
 
 .princips {
-  width: 100%;
-  max-width: 1470px;
   padding: 120px 0 120px;
 }
 
@@ -250,8 +241,6 @@ img {
 /* ------What are we doing------ */
 
 .wawd {
-  width: 100%;
-  max-width: 1470px;
   padding-bottom: 120px;
   background-color: var(--primeri-white-color);
 }
@@ -350,7 +339,9 @@ img {
   display: flex;
   flex-direction: column;
   width: 264px;
-  margin-left: 156px;
+  align-items: center;
+  width: 1158px;
+  padding: 0 15px 0 15px;
 }
 
 .footer-logo {
@@ -380,7 +371,7 @@ img {
   padding-bottom: 100px;
 }
 
-/* ------------PORTFOLIO*/
+/* ------------PORTFOLIO------------*/
 
 .porfolio-section {
   padding: 96px 0 120px 0;

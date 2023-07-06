@@ -291,8 +291,8 @@ img {
 .team-item {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   background-color: var(--primeri-white-color);
-
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-name-item {
@@ -308,7 +308,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .position-team {
@@ -344,14 +343,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   box-sizing: border-box;
-
   margin-bottom: 16px;
   display: inline-block;
 }
 .footer-logo-studio {
   color: var(--secondary-white-color);
   font-family: Raleway, sans-serif;
-  display: inline-block;
 }
 .footer-text {
   color: var(--secondary-white-color);

@@ -158,10 +158,12 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-right: 280px;
 }
 
 .hero-btn {
   display: block;
+  align-items: center;
   color: var(--primeri-white-color);
   font-size: var(--text-font-size);
   height: 56px;
@@ -173,7 +175,7 @@ img {
   background-color: var(--secondary-color);
   cursor: pointer;
   padding: 16px 32px;
-  margin: 48px 635px;
+  margin: 48px 550px;
   border: none;
   border-radius: 4px;
 }
@@ -197,9 +199,6 @@ img {
 
 .pr-list {
   display: flex;
-  align-items: center;
-  padding-left: 156px;
-  padding-right: 156px;
   gap: 24px;
 }
 
@@ -259,9 +258,7 @@ img {
 
 .what-list {
   display: flex;
-  align-items: center;
-  padding-left: 156px;
-  padding-right: 156px;
+
   gap: 24px;
 }
 .what-item {
@@ -288,11 +285,6 @@ img {
 
 .team-list {
   display: flex;
-  align-items: center;
-  padding-top: 72px;
-  padding-left: 156px;
-  padding-right: 156px;
-
   gap: 24px;
 }
 
@@ -339,9 +331,8 @@ img {
   display: flex;
   flex-direction: column;
   width: 264px;
-  align-items: center;
+
   width: 1158px;
-  padding: 0 15px 0 15px;
 }
 
 .footer-logo {
@@ -353,7 +344,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   box-sizing: border-box;
-  align-items: center;
+
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -381,8 +372,6 @@ img {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  padding-left: 156px;
-  padding-right: 156px;
   gap: 24px;
   margin-bottom: 72px;
   background-color: var(--primeri-white-color);
@@ -419,8 +408,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  align-items: center;
-  padding-left: 156px;
 }
 
 .images-port-li {

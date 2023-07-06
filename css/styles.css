@@ -98,7 +98,6 @@ img {
   padding: 24px 0 24px;
   text-decoration: none;
   font-size: 14px;
-  text-transform: uppercase;
   gap: 40px;
 }
 
@@ -119,7 +118,6 @@ img {
   margin-left: auto;
   text-decoration: none;
   font-size: 14px;
-  text-transform: uppercase;
   font-style: normal;
 }
 .adr-list {
@@ -327,11 +325,7 @@ img {
 }
 
 .footer-container {
-  display: flex;
   flex-direction: column;
-  width: 264px;
-
-  width: 1158px;
 }
 
 .footer-logo {

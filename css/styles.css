@@ -38,7 +38,7 @@ img {
   width: 100%;
   max-width: 1158px;
   padding-left: 15px;
-  padding-bottom: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 .link {
@@ -50,18 +50,12 @@ img {
 /* -----header---- */
 
 .header {
-  display: flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 76px;
-  width: 1158px;
-  padding: 0 15px 0 15px;
 }
 
 .header-nav {
@@ -77,10 +71,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
   margin-right: 76px;
+  padding: 24px 0 24px;
+  display: block;
 }
 .header-logo-studio {
   color: var(--primeri-black-color);
@@ -94,10 +87,6 @@ img {
 .header-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 24px 0 24px;
-  text-decoration: none;
-  font-size: 14px;
   gap: 40px;
 }
 
@@ -108,6 +97,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0 24px;
+  display: block;
 }
 .header-link:hover,
 .header-link:focus {
@@ -115,17 +105,11 @@ img {
 }
 
 .adr-contact {
-  margin-left: auto;
-  text-decoration: none;
-  font-size: 14px;
   font-style: normal;
 }
 .adr-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 24px;
-  margin-bottom: 24px;
   gap: 40px;
 }
 .adr-link {
@@ -133,6 +117,8 @@ img {
   font-size: var(--text-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
+  display: block;
 }
 .adr-link:hover,
 .adr-link:focus {
@@ -156,12 +142,11 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-right: 345px;
+  margin-bottom: 42px;
 }
 
 .hero-btn {
   display: block;
-  align-items: center;
   text-align: center;
   color: var(--primeri-white-color);
   font-size: var(--text-font-size);
@@ -174,7 +159,7 @@ img {
   background-color: var(--secondary-color);
   cursor: pointer;
   padding: 16px 32px;
-  margin: 48px 465px;
+  margin: 0 auto;
   border: none;
   border-radius: 4px;
 }
@@ -215,12 +200,10 @@ img {
 }
 
 .pr-item {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   width: calc((100% - 72px) / 4);
 }
 
 .pr-name {
-  width: calc((100% - 72px) / 4);
   color: var(--primeri-black-color);
   font-size: 20px;
   font-weight: 500;
@@ -351,7 +334,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-bottom: 100px;
 }
 
 /* ------------PORTFOLIO------------*/
@@ -361,12 +343,10 @@ img {
 }
 
 .presentation-list {
-  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  background-color: var(--primeri-white-color);
 }
 
 .pres-btn {
